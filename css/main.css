@@ -1,0 +1,15 @@
+main {
+    height: 100vh;
+    width: 100vw;
+}
+
+#canvas {
+    height: 100%;
+    width: 100%;
+}
+
+.line {
+    fill: none;
+    stroke: black;
+    stroke-width: 3;
+}
