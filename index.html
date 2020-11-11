@@ -18,7 +18,7 @@
                     </span>
                 </p>
             </button>
-            <button id="" class="btn">
+            <button class="btn" onclick="showPalette()">
                 <span>
                     <i class="fas fa-palette"></i>
                 </span>
@@ -44,6 +44,24 @@
             <p>Hello, World!</p>
             <button class="btn" onclick="hideBrush()">
                 <i class="fas fa-times"></i>
+            </button>
+            
+        </div>
+    </div>
+    <div id="palette-modal" class="modal-holder">
+        <div class="modal">
+            <p>Hello, World!</p>
+            <button class="btn" onclick="hidePalette()">
+                <i class="fas fa-times"></i>
+                <button class="btn" onclick="setColor('blue')">
+                    <div style="width: 100%; height: 100%; background-color: blue;"></div>
+                </button>
+                <button class="btn" onclick="setColor('red')">
+                    <div style="width: 100%; height: 100%; background-color: Red;"></div>
+                </button>
+                <button class="btn" onclick="setColor('green')">
+                    <div style="width: 100%; height: 100%; background-color: green;"></div>
+                </button>
             </button>
             
         </div>

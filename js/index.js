@@ -100,5 +100,26 @@ hideBrush = () => {
     el.style.top = "-100%";
 }
 
+showPalette = () => {
+    let el = document.getElementById("palette-modal");
+    let overlay = document.getElementById("overlay");
+
+    overlay.style.display = "block";
+    el.style.top = "0";
+}
+
+hidePalette = () => {
+    let el = document.getElementById("palette-modal");
+    let overlay = document.getElementById("overlay");
+
+    overlay.style.display = "none";
+    el.style.top = "-100%";
+}
+
+
+setColor = (color) => {
+    cLine.style.stroke = color;
+}
+
 
 
