@@ -84,4 +84,21 @@ canvas.addEventListener('mousemove', function(evt){
     }
 })
 
+showBrush = () => {
+    let el = document.getElementById("test-modal");
+    let overlay = document.getElementById("overlay");
+
+    overlay.style.display = "block";
+    el.style.top = "0";
+}
+
+hideBrush = () => {
+    let el = document.getElementById("test-modal");
+    let overlay = document.getElementById("overlay");
+
+    overlay.style.display = "none";
+    el.style.top = "-100%";
+}
+
+
 
